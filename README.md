@@ -10,6 +10,6 @@ front 실행방법
 4. npm start 혹은 yarn start 로 실행
 
 기능구현
-1 로그인
-2 회원가입
-3 mypage 이미지 
+1. 로그인
+2. 회원가입
+3. mypage 이미지 클릭시 이미지변경가능
