@@ -1,0 +1,48 @@
+.MypageCont{
+    width: 100wh;
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MypageBox{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.userImg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+
+.imgInput{
+    width: 200px;
+    height: 200px;
+    opacity: 0;
+    z-index: 10;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 140px
+}
+
+.Btn{
+    width: 200px;
+    height: 40px;
+    border: 1px solid #dcdcdc;
+    background-color: white;
+    border-radius: 20px;
+}
